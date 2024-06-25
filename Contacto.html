@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+<div align="center"> 
+    <header> <h1> Tienda Muebles: </h1> </header>
+    <hr>
+    <br>
+</div>
+
+<div align="center"> 
+<header> <h1> Contacto </h1> </header>
+</div>
+
+<main> 
+    <section id="contacto">
+        <form>
+            <fieldset>
+                <legend>Tus Datos</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre"><br><br>
+        
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" placeholder="Tu Asunto"><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu Email"><br><br>
+    
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu Teléfono"><br><br>
+    
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="60"></textarea><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>País</legend>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                    <option value="Perú">-- Perú --</option>
+                    <option value="Argentina">-- Argentina --</option>
+                    <option value="México">-- México --</option>
+                    <option value="Chile">-- Chile --</option>
+                    <option value="Ecuador">-- Ecuador --</option>
+                    <option value="Bolivia">-- Bolivia --</option>
+                    <option value="Brasil">-- Brasil --</option>
+                    <option value="Uruguay">-- Uruguay --</option>
+                    <option value="Paraguay">-- Paraguay --</option>
+                    <option value="Venezuela">-- Venezuela --</option>
+                    <!-- Añadir opciones de países aquí -->
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Información Extra</legend>
+                <input type="radio" id="cliente" name="tipo" value="cliente">
+                <label for="cliente">Cliente</label><br>
+                <input type="radio" id="proveedor" name="tipo" value="proveedor">
+                <label for="proveedor">Proveedor</label><br><br>
+
+                <label for="categoria">Categoría de Interés:</label>
+                <input type="text" id="categoria" name="categoria"><br><br>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar Formulario</button>
+            <br>
+        </form>
+        <br>
+        <hr>
+    </section>
+</main>
+
+<style> 
+
+form {
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+</style>
+
+<aticle>
+    <table class="footer-table">
+        <tr>
+            <th>
+                <h2> Categorías: </h2>
+                <li>Cocina</li>
+                <li>Oficina</li>
+                <li>Jardín</li>
+                <li>Cochera</li>
+                <li>Dormitorio</li>
+            </th>
+            <th>
+                <h2>Sobre Nosotros:</h2>
+                <li>Nuestra Historia</li>
+                <li>Misión, visión y Valores</li>
+                <li>Carreras</li>
+                <li>Política de Privacidad</li>
+                <li>Términos del Servicio</li>
+            </th>
+            <th>
+                <h2>Soporte:</h2>
+                <li>Preguntas Frecuentes</li>
+                <li>Ayuda en línea</li>
+                <li>Confianza y Seguridad</li>
+            </th>
+        </tr>
+    </table>
+</aticle>
+
+<style>
+
+.footer-table {
+    width: 108%;
+    text-align:center;
+}
+
+.TiendaMuebles{
+    width: 97%;
+    padding: 20px 0;
+    text-align:center;
+}
+
+</style>
+
+<footer class="TiendaMuebles">
+    Todos los derechos Reservados, TiendaMuebles
+</footer>
+
+</body>
+</html>
